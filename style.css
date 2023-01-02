@@ -1,0 +1,122 @@
+
+     
+
+
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* font-size: 0px; */
+    /* height: 20px; */
+}
+
+img[alt="brand-logo"]{
+    height: 35px;
+}
+
+.list{
+    display: flex;
+    /* text-decoration: none; */
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 900px;
+   font-family:monospace;
+}
+.button-group{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+   
+}
+.search-icon{
+    font-size: 10px;
+    
+}
+
+.nav-button{
+    font-size: 20px;
+}
+
+.hero-container{
+    position: relative;
+    padding: 10px 50px;
+}
+.square>img{
+    position:absolute;
+    /* left: 100px; */
+    top: 100px;
+    z-index: -1;
+}
+.star>img{
+    position: absolute;
+    right: 100px;
+    height: 50px;
+    top: 100px;
+}
+.globe>img{
+   position: absolute;
+   top: 50px;
+   left: 710px;
+   height: 50px;
+}
+
+[alt="person-hero-iamge"]{
+    height: 400px;
+    right: 200px;
+}
+
+
+.hero-heading{
+    display: flex;
+    justify-content: center;
+   font-size: 50px;
+   font-weight: 700px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   position: absolute;
+   top: 180px;
+   left:700px;
+}
+.hero-description{
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+   font-weight: 20px;
+   
+   position: absolute;
+   top: 300px;
+   left:700px;
+
+}
+.button-email{
+    position: absolute;
+    right: 400px;
+    font-size: 25px;
+}
+.button-join{
+    position: absolute;
+    right: 270px;
+    font-size: 20px;
+    background-color:black;
+    color: white;
+
+}
+.contact-heading{
+    position: absolute;
+    right: 350px;
+    font-size: 20px;
+    top: 450px;
+}
+.icons{
+    position: absolute;
+    right: 300px;
+    font-size: 20px;
+    top: 510px;
+
+}
+
+
+
+
